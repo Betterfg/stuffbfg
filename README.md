@@ -2,7 +2,7 @@
 # StuffBFG – Better Finance Group
 
 <p align="center">
-  <img src="./logo.png" alt="Better Finance Group Logo" width="250">
+  <img src="./loan-calculator/logo.png" alt="Better Finance Group Logo" width="250">
 </p>
 
 This repository is the **Better Finance Group (BFG) development workspace**.  
