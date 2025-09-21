@@ -137,3 +137,230 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# === BROKER-SPECIFIC ADDITIONS ===
+
+# Client & Application Data
+clients/
+applications/
+loan-files/
+client-documents/
+borrower-data/
+credit-reports/
+income-verification/
+bank-statements/
+
+# Ollama/LLM Files
+ollama-data/
+models/
+*.gguf
+*.bin
+model-cache/
+embeddings/
+training-data/
+
+# Additional API Keys
+api-keys/
+tokens/
+lender-api-keys.json
+crm-config.json
+credit-api-credentials/
+
+# Document Processing
+temp-docs/
+processed-pdfs/
+ocr-output/
+document-extracts/
+
+# Sensitive Financial Files
+*.key
+*.pem
+credentials.json
+secrets.json
+audit-logs/
+compliance-reports/
+
+# === BROKER WORKFLOW SENSITIVE FILES ===
+
+# Client & Application Data
+clients/
+applications/
+loan-files/
+client-documents/
+borrower-data/
+*.client
+client-*.json
+application-*.json
+borrower-profiles/
+credit-reports/
+income-verification/
+bank-statements/
+property-valuations/
+
+# Lender & Rate Data
+lender-apis/
+rate-sheets/
+lender-configs/
+product-matrices/
+commission-structures/
+lender-criteria/
+*.rates
+lender-*.json
+pricing-data/
+
+# API Keys & Credentials
+*.env
+.env*
+api-keys/
+tokens/
+credentials/
+oauth-tokens/
+lender-api-keys.json
+crm-config.json
+los-credentials.json
+bank-api-keys/
+credit-api-credentials/
+property-api-keys/
+encompass-config.json
+floify-config.json
+
+# === OLLAMA/LLM SPECIFIC ===
+ollama-data/
+models/
+*.gguf
+*.bin
+*.safetensors
+model-cache/
+embeddings/
+vector-db/
+fine-tuned/
+custom-models/
+training-data/
+conversation-logs/
+llm-cache/
+
+# Document Processing & OCR
+temp-docs/
+processed-pdfs/
+ocr-output/
+document-extracts/
+scanned-docs/
+pdf-text-cache/
+image-processing/
+doc-analysis/
+
+# === COMPLIANCE & AUDIT ===
+audit-logs/
+compliance-reports/
+regulatory-filings/
+privacy-logs/
+consent-records/
+disclosure-tracking/
+*.audit
+audit-*.json
+
+# CRM & Pipeline Data
+pipeline-data/
+lead-sources/
+conversion-tracking/
+client-communications/
+email-templates/
+sms-logs/
+call-recordings/
+follow-up-schedules/
+
+# Calculation & Analysis
+rate-calculations/
+affordability-assessments/
+scenario-modeling/
+comparison-reports/
+cash-flow-analysis/
+*.calc
+calculation-cache/
+
+# Integration Data
+webhook-logs/
+api-responses/
+sync-data/
+integration-cache/
+third-party-data/
+external-feeds/
+property-data-cache/
+
+# Business Intelligence
+analytics-data/
+performance-metrics/
+commission-tracking/
+volume-reports/
+conversion-analytics/
+business-reports/
+
+# Backup & Recovery
+backups/
+data-exports/
+system-backups/
+client-backups/
+*.bak
+*.backup
+recovery-files/
+
+# === SECURITY & ENCRYPTION ===
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+encryption-keys/
+ssl-certs/
+security-configs/
+
+# === STANDARD IGNORES ===
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+.python-version
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+api.log
+webhook.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vimrc
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+cache/
+.cache/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Configuration
+config.json
+settings.json
+local-config.json
